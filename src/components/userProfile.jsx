@@ -1,7 +1,7 @@
-const UserProfile = () => {
+const UserProfile = ({ children }) => {
   return (
     <div>
-      My Profile
+      {children}
     </div>
   );
 };
